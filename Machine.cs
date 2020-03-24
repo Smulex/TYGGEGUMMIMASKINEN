@@ -8,6 +8,7 @@ namespace TYGGEGUMMIMASKINEN
 {
     public class Machine
     {
+        //Hvorfor lægger dine tyggegummier i en string og ikke i objekter?
         public string[] gum = new string[55];
         /// <summary>
         /// Den her constructor lavet maskinen så den er fyldt.
@@ -23,6 +24,8 @@ namespace TYGGEGUMMIMASKINEN
         /// Kom først i tænke om den her efter jeg havde lavet det (gum[i] = new Gum("name");)
         /// </summary>
         /// <returns></returns>
+        
+        //Hvorfor er den metode public??
         public string[] Fill()
         {
             Gum blueberry = new Gum("Blueberry");
@@ -64,6 +67,8 @@ namespace TYGGEGUMMIMASKINEN
         /// Den her metode giver et tilfældigt tyggegummi.
         /// </summary>
         /// <returns></returns>
+        
+        //Hvorfor en string? og ikke et tyggegummi
         public string GetGum()
         {
             Random random = new Random();
